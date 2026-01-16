@@ -65,15 +65,16 @@
  
 }
 
-
+/* card-box section design */
 .card-section{
 
-    background: rgb(248, 244, 244);
+    background: rgb(254, 252, 252);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 200px;
+    padding: 50px 200px;
+    margin: 50px 0px;
     padding-bottom: 0px;
 }
 
@@ -154,8 +155,9 @@
 
 .about-us{
     display: flex;
-    margin: 50px 0px;
     justify-content: space-between;
+
+    margin: 30px 0px;
   
 }
 
@@ -174,7 +176,7 @@
     justify-content: center;
     align-items: center;
     row-gap: 20px;
-    background-color: rgb(254, 252, 249);
+    background: rgb(254, 252, 252);
     
 }
 
@@ -211,3 +213,62 @@ opacity: 0.6;
 
 }
 
+.single-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+    background: rgb(254, 252, 252);
+        margin: 30px 0px;
+}
+
+/* Footer section design*/
+
+.footer{
+    width: 1280px;
+    margin: 0px auto;
+    background: url(assets/social-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    height: 400px;
+}
+
+.footer h1{
+    color: rgba(16, 16, 16, 1);
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.footer p{
+    color: rgba(16, 16, 16, 1);
+font-size: 14px;
+font-weight: 500;
+opacity: 0.6;
+}
+
+.footer h2{
+    color: rgba(16, 16, 16, 1);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+
+.footer .icon{
+    display: flex;
+    flex-direction:row;
+    column-gap: 20px;
+   
+}
+ .footer .icon img{
+    width: 30px;
+
+}
